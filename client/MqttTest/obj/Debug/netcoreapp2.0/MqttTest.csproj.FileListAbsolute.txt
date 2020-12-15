@@ -1,0 +1,11 @@
+E:\git\iot-protocols\client\MqttTest\bin\Debug\netcoreapp2.0\MqttTest.deps.json
+E:\git\iot-protocols\client\MqttTest\bin\Debug\netcoreapp2.0\MqttTest.runtimeconfig.json
+E:\git\iot-protocols\client\MqttTest\bin\Debug\netcoreapp2.0\MqttTest.runtimeconfig.dev.json
+E:\git\iot-protocols\client\MqttTest\bin\Debug\netcoreapp2.0\MqttTest.dll
+E:\git\iot-protocols\client\MqttTest\bin\Debug\netcoreapp2.0\MqttTest.pdb
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.csprojResolveAssemblyReference.cache
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.csproj.CoreCompileInputs.cache
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.AssemblyInfoInputs.cache
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.AssemblyInfo.cs
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.dll
+E:\git\iot-protocols\client\MqttTest\obj\Debug\netcoreapp2.0\MqttTest.pdb
