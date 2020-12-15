@@ -12,7 +12,7 @@ namespace Client
         static void Main(string[] args)
         {
 
-            // init sensors
+            // init sensors prova
             List<SensorInterface> sensors = new List<SensorInterface>();
             sensors.Add(new VirtualSpeedSensor());
 
