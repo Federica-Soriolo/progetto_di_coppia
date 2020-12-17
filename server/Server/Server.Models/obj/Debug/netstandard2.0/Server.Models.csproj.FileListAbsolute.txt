@@ -1,0 +1,9 @@
+C:\progetto_di_coppia\server\Server\Server.Models\bin\Debug\netstandard2.0\Server.Models.deps.json
+C:\progetto_di_coppia\server\Server\Server.Models\bin\Debug\netstandard2.0\Server.Models.dll
+C:\progetto_di_coppia\server\Server\Server.Models\bin\Debug\netstandard2.0\Server.Models.pdb
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.csprojAssemblyReference.cache
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.AssemblyInfoInputs.cache
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.AssemblyInfo.cs
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.csproj.CoreCompileInputs.cache
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.dll
+C:\progetto_di_coppia\server\Server\Server.Models\obj\Debug\netstandard2.0\Server.Models.pdb
