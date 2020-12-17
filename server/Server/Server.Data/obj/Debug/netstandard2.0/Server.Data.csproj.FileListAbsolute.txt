@@ -1,0 +1,12 @@
+C:\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.deps.json
+C:\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.dll
+C:\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.pdb
+C:\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Models.dll
+C:\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Models.pdb
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csprojAssemblyReference.cache
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.AssemblyInfoInputs.cache
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.AssemblyInfo.cs
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csproj.CoreCompileInputs.cache
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csproj.CopyComplete
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.dll
+C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.pdb

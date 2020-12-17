@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Server.Data;
 using Server.Models;
 using System;
 using System.Collections.Generic;
@@ -10,20 +11,23 @@ namespace Server.Controllers
 {
     public class DeviceController : Controller
     {
-
+        private readonly IActionsRepository _actionsRepository;
+        public DeviceController(IActionsRepository actionsRepository)
+        {
+            _actionsRepository = actionsRepository;
+        }
         [Route("/scooters/{deviceId}")]
         [HttpPost]
-        public ActionResult Post(int id, [FromBody] DataModel data)
+        public ActionResult Post(string deviceId, [FromBody] DataModel data)
         {
             if (data != null)
             {
-                //Console.WriteLine(data);
+                _actionsRepository.TableServiceAsync(deviceId, data);
                 return Ok();
             }
             else return BadRequest();
 
         }
-
         
     }
 }

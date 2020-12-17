@@ -28,6 +28,80 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
+                "projectPath": "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
+        "projectName": "Server.Models",
+        "projectPath": "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -41,11 +115,19 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
             }
           },
           "imports": [
