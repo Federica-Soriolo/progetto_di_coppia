@@ -4,6 +4,8 @@ using Client.Sensors;
 using System.Net;
 using System.IO;
 using System.Collections;
+using Client.Models;
+using Newtonsoft.Json;
 
 namespace Client
 {
@@ -11,33 +13,34 @@ namespace Client
     {
         static void Main(string[] args)
         {
-
-            // init sensors prova
-            List<SensorInterface> sensors = new List<SensorInterface>();
-            sensors.Add(new VirtualSpeedSensor());
+            var speed = new VirtualSpeedSensor();
+            var battery = new BatterySensor();
+            var position = new PositionSensor();
 
             while (true)
             {
-                foreach (SensorInterface sensor in sensors)
+                Detection d = new Detection();
+
+                HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("https://localhost:44392/scooters/1");
+                httpWebRequest.ContentType = "text/json";
+                httpWebRequest.Method = "POST";
+
+                d.Battery = battery.GetBattery();
+                d.Speed = speed.GetSpeed();
+                d.Latitude = position.GetPosition().Latitude;
+                d.Longitude = position.GetPosition().Longitude;
+
+                var json = JsonConvert.SerializeObject(d);
+
+                using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                 {
-                    HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("http://localhost:8011/scooters/123");
-                    httpWebRequest.ContentType = "text/json";
-                    httpWebRequest.Method = "POST";
-
-                    using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
-                    {
-                        streamWriter.Write(sensor.toJson());
-                    }
-
-                    var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-
-                    Console.Out.WriteLine(httpResponse.StatusCode);
-
-                    httpResponse.Close();
-
-                    System.Threading.Thread.Sleep(1000);
-
+                    streamWriter.Write(json);
                 }
+                var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                Console.Out.WriteLine(httpResponse.StatusCode);
+
+                httpResponse.Close();
+                System.Threading.Thread.Sleep(10000);
 
             }
 

@@ -12,14 +12,14 @@ namespace Server.Models
 
         }
 
-        public TableModel(Guid id, string deviceId, int speed, int battery, decimal longitude, decimal latitude)
+        public TableModel(Guid id, string deviceId, int speed, int battery, decimal latitude, decimal longitude)
         {
             
             DeviceId = deviceId;
             Speed = speed;
             Battery = battery;
-            Longitude = longitude;
             Latitude = latitude;
+            Longitude = longitude;
 
             PartitionKey = deviceId;
             RowKey = id.ToString();
@@ -27,8 +27,9 @@ namespace Server.Models
         public string DeviceId { get; set; }
         public int Speed { get; set; }
         public int Battery { get; set; }
-        public decimal Longitude { get; set; }
         public decimal Latitude { get; set; }
+        public decimal Longitude { get; set; }
+        
 
     }
 }

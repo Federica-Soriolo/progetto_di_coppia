@@ -6115,19 +6115,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aless\\.nuget\\packages\\": {}
+    "C:\\Users\\Alessio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\progetto_di_coppia\\server\\Server\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "C:\\progetto_di_coppia\\server\\Server\\Server\\Server.csproj",
-      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-      "outputPath": "C:\\progetto_di_coppia\\server\\Server\\Server\\obj\\",
+      "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\Alessio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alessio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6135,18 +6135,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {
-              "projectPath": "C:\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj"
+            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {
+              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj"
             },
-            "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
-              "projectPath": "C:\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj"
+            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
+              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj"
             }
           }
         }

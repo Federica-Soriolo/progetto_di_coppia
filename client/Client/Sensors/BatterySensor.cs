@@ -6,9 +6,9 @@ using System.Globalization;
 
 namespace Client.Sensors
 {
-    public class VirtualSpeedSensor : SpeedSensorInterface, SensorInterface
+    public class BatterySensor : BatteryInterface, SensorInterface
     {
-        public int GetSpeed()
+        public int GetBattery()
         {
             var random = new Random();
             return random.Next(100);

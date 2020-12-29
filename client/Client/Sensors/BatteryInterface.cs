@@ -5,8 +5,8 @@ using System.Text;
 
 namespace Client.Sensors
 {
-    public interface SpeedSensorInterface
+    public interface BatteryInterface
     {
-        int GetSpeed();
+        int GetBattery();
     }
 }

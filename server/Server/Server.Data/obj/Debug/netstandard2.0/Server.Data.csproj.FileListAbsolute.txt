@@ -10,3 +10,15 @@ C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.
 C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csproj.CopyComplete
 C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.dll
 C:\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.deps.json
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Data.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Models.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\bin\Debug\netstandard2.0\Server.Models.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csprojAssemblyReference.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.AssemblyInfoInputs.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.AssemblyInfo.cs
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csproj.CoreCompileInputs.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.csproj.CopyComplete
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server.Data\obj\Debug\netstandard2.0\Server.Data.pdb

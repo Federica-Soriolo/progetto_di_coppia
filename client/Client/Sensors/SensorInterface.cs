@@ -5,8 +5,7 @@ using System.Text;
 
 namespace Client.Sensors
 {
-    interface SensorInterface
+    public interface SensorInterface
     {
-        string toJson();
     }
 }
