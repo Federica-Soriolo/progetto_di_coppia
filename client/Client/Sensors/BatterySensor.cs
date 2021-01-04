@@ -8,10 +8,19 @@ namespace Client.Sensors
 {
     public class BatterySensor : BatteryInterface, SensorInterface
     {
-        public int GetBattery()
+        public bool check { get; set; }
+        public int GetBattery(int status)
         {
-            var random = new Random();
-            return random.Next(100);
+            if (!check)
+            {
+                check = true;
+                return status;
+            }
+            else
+            {
+                status--;
+                return status;
+            }
         }
     }
 }

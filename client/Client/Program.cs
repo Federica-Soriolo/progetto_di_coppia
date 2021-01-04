@@ -6,16 +6,22 @@ using System.IO;
 using System.Collections;
 using Client.Models;
 using Newtonsoft.Json;
+using System.Timers;
 
 namespace Client
 {
     class Program
     {
+        private static System.Timers.Timer batterytimer;
+        private static VirtualSpeedSensor speed = new VirtualSpeedSensor();
+        private static BatterySensor battery = new BatterySensor();
+        private static PositionSensor position = new PositionSensor();
+
+        private static int status = 100;
         static void Main(string[] args)
         {
-            var speed = new VirtualSpeedSensor();
-            var battery = new BatterySensor();
-            var position = new PositionSensor();
+            SetTimer();
+            battery.check = false;
 
             while (true)
             {
@@ -25,7 +31,8 @@ namespace Client
                 httpWebRequest.ContentType = "text/json";
                 httpWebRequest.Method = "POST";
 
-                d.Battery = battery.GetBattery();
+                d.Battery = status;
+                battery.check = true;
                 d.Speed = speed.GetSpeed();
                 d.Latitude = position.GetPosition().Latitude;
                 d.Longitude = position.GetPosition().Longitude;
@@ -37,15 +44,31 @@ namespace Client
                     streamWriter.Write(json);
                 }
                 var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
-                Console.Out.WriteLine(httpResponse.StatusCode);
+                Console.Out.WriteLine(json);
 
                 httpResponse.Close();
-                System.Threading.Thread.Sleep(10000);
+                System.Threading.Thread.Sleep(2000);
 
             }
+
+
+        }
+
+        private static void SetTimer()
+        {
+            // Create a timer with a two second interval.
+            batterytimer = new System.Timers.Timer(10000);
+            // Hook up the Elapsed event for the timer. 
+            batterytimer.Elapsed += OnTimedEvent;
+            batterytimer.AutoReset = true;
+            batterytimer.Enabled = true;
+        }
+
+        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
+        {
+            status = battery.GetBattery(status);
 
         }
 
     }
-
 }

@@ -22,7 +22,7 @@ namespace Server.Data
             var messageClient = tableMessage.GetTableReference("progettovalle");
             await messageClient.CreateIfNotExistsAsync();
 
-            TableModel t = new TableModel(new Guid(), deviceId, data.Speed, data.Battery, data.Latitude, data.Longitude);
+            TableModel t = new TableModel(Guid.NewGuid(), deviceId, data.Speed, data.Battery, data.Latitude, data.Longitude);
 
             var insertFile = TableOperation.Insert(t);
             var resultInsert = await messageClient.ExecuteAsync(insertFile);

@@ -7,6 +7,6 @@ namespace Client.Sensors
 {
     public interface BatteryInterface
     {
-        int GetBattery();
+        int GetBattery(int status);
     }
 }

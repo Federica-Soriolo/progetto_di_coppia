@@ -11,7 +11,7 @@ namespace Client.Sensors
         public int GetSpeed()
         {
             var random = new Random();
-            return random.Next(100);
+            return random.Next(30);
         }
     }
 }
