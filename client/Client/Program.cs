@@ -16,6 +16,8 @@ namespace Client
         private static PositionSensor position = new PositionSensor();
 
         private static int status = 100;
+        private string clientId = "Scooter1";
+
         static void Main(string[] args)
         {
             SetTimer();
@@ -23,17 +25,19 @@ namespace Client
 
             while (true)
             {
-                Detection d = new Detection();
-
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create("https://localhost:44392/scooters/1");
                 httpWebRequest.ContentType = "text/json";
                 httpWebRequest.Method = "POST";
 
-                d.Battery = status;
+                Detection d = new Detection()
+                {
+                    DeviceId = clientId,
+                    Battery = status,
+                    Speed = speed.GetSpeed(),
+                    Latitude = position.GetPosition().Latitude,
+                    Longitude = position.GetPosition().Longitude,
+                };
                 battery.check = true;
-                d.Speed = speed.GetSpeed();
-                d.Latitude = position.GetPosition().Latitude;
-                d.Longitude = position.GetPosition().Longitude;
 
                 var json = JsonConvert.SerializeObject(d);
 

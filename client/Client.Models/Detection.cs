@@ -7,6 +7,7 @@ namespace Client.Models
 {
     public class Detection
     {
+        public string DeviceId { get; set; }
         public int Speed { get; set; }
         public int Battery { get; set; }
         public double Longitude { get; set; }

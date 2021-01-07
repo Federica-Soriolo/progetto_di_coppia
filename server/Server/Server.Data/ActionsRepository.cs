@@ -14,7 +14,7 @@ namespace Server.Data
         {
             _configuration = configuration;
         }
-        public async Task TableServiceAsync(string deviceId, DataModel data)
+        public async Task TableServiceAsync(DataModel data)
         {
 
             var storageAccount = Microsoft.Azure.Cosmos.Table.CloudStorageAccount.Parse(_configuration.GetConnectionString("Storage"));
@@ -22,7 +22,7 @@ namespace Server.Data
             var messageClient = tableMessage.GetTableReference("progettovalle");
             await messageClient.CreateIfNotExistsAsync();
 
-            TableModel t = new TableModel(Guid.NewGuid(), deviceId, data.Speed, data.Battery, data.Latitude, data.Longitude);
+            TableModel t = new TableModel(Guid.NewGuid(), data.DeviceId, data.Speed, data.Battery, data.Latitude, data.Longitude);
 
             var insertFile = TableOperation.Insert(t);
             var resultInsert = await messageClient.ExecuteAsync(insertFile);

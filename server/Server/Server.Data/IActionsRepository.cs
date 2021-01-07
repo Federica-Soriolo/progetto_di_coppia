@@ -8,6 +8,6 @@ namespace Server.Data
 {
     public interface IActionsRepository
     {
-        Task TableServiceAsync(string deviceId, DataModel data);
+        Task TableServiceAsync(DataModel data);
     }
 }

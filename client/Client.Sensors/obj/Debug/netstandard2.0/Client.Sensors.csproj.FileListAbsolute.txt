@@ -10,3 +10,15 @@ C:\Users\aless\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0
 C:\Users\aless\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.csproj.CopyComplete
 C:\Users\aless\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.dll
 C:\Users\aless\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\bin\Debug\netstandard2.0\Client.Sensors.deps.json
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\bin\Debug\netstandard2.0\Client.Sensors.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\bin\Debug\netstandard2.0\Client.Sensors.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\bin\Debug\netstandard2.0\Client.Models.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\bin\Debug\netstandard2.0\Client.Models.pdb
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.csprojAssemblyReference.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.AssemblyInfoInputs.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.AssemblyInfo.cs
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.csproj.CoreCompileInputs.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.csproj.CopyComplete
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.dll
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Sensors\obj\Debug\netstandard2.0\Client.Sensors.pdb

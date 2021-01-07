@@ -43,6 +43,7 @@ namespace ClientMQTT
             {
                 Detection d = new Detection()
                 {
+                    DeviceId = clientId,
                     Battery = status,
                     Speed = speed.GetSpeed(),
                     Latitude = position.GetPosition().Latitude,
@@ -54,7 +55,7 @@ namespace ClientMQTT
 
                 mqtt.Publish(topicSummary,json);
                 
-                await Task.Delay(2000, stoppingToken);
+                await Task.Delay(20000, stoppingToken);
             }
         }
 

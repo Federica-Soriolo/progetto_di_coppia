@@ -86,3 +86,4 @@ C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server\obj\
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server\obj\Debug\netcoreapp3.1\Server.dll
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server\obj\Debug\netcoreapp3.1\Server.pdb
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server\obj\Debug\netcoreapp3.1\Server.genruntimeconfig.cache
+C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\server\Server\Server\bin\Debug\netcoreapp3.1\M2Mqtt.Net.dll

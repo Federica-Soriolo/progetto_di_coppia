@@ -16,13 +16,13 @@ namespace Server.Controllers
         {
             _actionsRepository = actionsRepository;
         }
-        [Route("/scooters/{deviceId}")]
+        [Route("/scooters/")]
         [HttpPost]
-        public ActionResult Post(string deviceId, [FromBody] DataModel data)
+        public ActionResult Post([FromBody] DataModel data)
         {
             if (data != null)
             {
-                _actionsRepository.TableServiceAsync(deviceId, data);
+                _actionsRepository.TableServiceAsync(data);
                 return Ok();
             }
             else return BadRequest();

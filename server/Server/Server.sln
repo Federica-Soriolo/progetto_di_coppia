@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{6773BB56-5410-4BC8-869A-D0AC7E4F614A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{6773BB56-5410-4BC8-869A-D0AC7E4F614A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Models", "Server.Models\Server.Models.csproj", "{7817F44B-BDBC-4E48-9C89-BE6A6EE57BB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Models", "Server.Models\Server.Models.csproj", "{7817F44B-BDBC-4E48-9C89-BE6A6EE57BB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Data", "Server.Data\Server.Data.csproj", "{CCEE2AF1-CEC1-4D0F-A457-B22F9F131702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Data", "Server.Data\Server.Data.csproj", "{CCEE2AF1-CEC1-4D0F-A457-B22F9F131702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerMqtt", "ServerMQTT2\ServerMqtt.csproj", "{3DBD094D-D833-4E7C-92AB-BFF3078CBB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CCEE2AF1-CEC1-4D0F-A457-B22F9F131702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCEE2AF1-CEC1-4D0F-A457-B22F9F131702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCEE2AF1-CEC1-4D0F-A457-B22F9F131702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBD094D-D833-4E7C-92AB-BFF3078CBB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBD094D-D833-4E7C-92AB-BFF3078CBB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBD094D-D833-4E7C-92AB-BFF3078CBB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBD094D-D833-4E7C-92AB-BFF3078CBB1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
