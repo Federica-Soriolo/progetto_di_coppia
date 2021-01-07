@@ -49,21 +49,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Detection.cs" />
-    <Compile Include="Models\Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sensors\PositionInterface.cs" />
-    <Compile Include="Sensors\BatteryInterface.cs" />
-    <Compile Include="Sensors\PositionSensor.cs" />
-    <Compile Include="Sensors\SpeedSensorInterface.cs" />
-    <Compile Include="Sensors\SensorInterface.cs" />
-    <Compile Include="Sensors\BatterySensor.cs" />
-    <Compile Include="Sensors\VirtualSpeedSensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Models\Client.Models.csproj">
+      <Project>{c3947d5b-0d9b-48fd-be03-dbfd604b489b}</Project>
+      <Name>Client.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Client.Sensors\Client.Sensors.csproj">
+      <Project>{1af6b1b0-9a5f-4aea-8ca9-cd496d946e0b}</Project>
+      <Name>Client.Sensors</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-ClientMQTT-D228BEB4-8ABC-45DB-9FE9-0DA606982CEC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Data\Client.Data.csproj" />
+    <ProjectReference Include="..\Client.Models\Client.Models.csproj" />
+    <ProjectReference Include="..\Client.Sensors\Client.Sensors.csproj" />
+  </ItemGroup>
+</Project>

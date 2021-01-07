@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Client.Sensors;
 using System.Net;
 using System.IO;
 using System.Collections;
-using Client.Models;
 using Newtonsoft.Json;
 using System.Timers;
 
