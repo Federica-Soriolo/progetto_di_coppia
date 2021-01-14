@@ -16,7 +16,7 @@ namespace Client.Data
         public Mqtt(string clientId)
         {
             client = new MqttClient(BrokerAddress);
-            client.Connect(clientId);
+            client.Connect(clientId, null, null, false, 2, true, "Scooter/Scooter1/LastWillTopic", "Unexpected exit", true, 60);
             client.MqttMsgPublishReceived += PublishReceived;
             Race = false;
             Scooter = false;

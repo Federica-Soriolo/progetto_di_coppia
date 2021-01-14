@@ -43,7 +43,7 @@ namespace ServerMqtt
             client.Connect(clientId);
 
             Subscribe(topic);
-
+            Subscribe("Scooter/Scooter1/LastWillTopic");
 
             Publish("Scooter/Scooter1/Cmd/Scooter", "Scooter ON"); //Invia il comando di accensione monopattino
             Publish("Scooter/Scooter1/Cmd/Race", "Start race"); //Invia il comando di apertura nuova corsa
@@ -58,11 +58,12 @@ namespace ServerMqtt
             string ReceivedMessage = Encoding.UTF8.GetString(e.Message);
             if (ReceivedMessage != null)
             {
+                _logger.LogInformation($"Message: {ReceivedMessage}");
                 var detection = JsonSerializer.Deserialize<DataModel>(ReceivedMessage);
 
                 _actionsRepository.TableServiceAsync(detection);
 
-                _logger.LogInformation($"Message: {ReceivedMessage}");
+                
             }
 
         }
