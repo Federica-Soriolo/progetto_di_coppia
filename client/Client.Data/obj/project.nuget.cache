@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cA71LwqmSWIa4xcFyuuifnlS6bvU7ITMLOZtp7gar3XYpX88e42eQaCZNC2LkcDx/4Nlg5czWwfTUAGm2zavdw==",
+  "dgSpecHash": "zhNdS79mhLjGShq08tNuLt2+CzjBuujh0KcfCBsL6cS8FfD1UIqtd/AUc0Du9RK/zuaNYWLjmw158xIQgH5W7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj",
+  "projectFilePath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alessio\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alessio\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alessio\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\aless\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": [
     {

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {}
+    "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {
+    "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj",
         "projectName": "Server.Data",
-        "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj",
-        "packagesPath": "C:\\Users\\Alessio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Data\\obj\\",
+        "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Data\\Server.Data.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alessio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
-                "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj"
+              "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
+                "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj"
               }
             }
           }
@@ -81,17 +82,17 @@
         }
       }
     },
-    "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
+    "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
         "projectName": "Server.Models",
-        "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
-        "packagesPath": "C:\\Users\\Alessio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\server\\Server\\Server.Models\\obj\\",
+        "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\Server.Models.csproj",
+        "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\server\\Server\\Server.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alessio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,7 +100,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

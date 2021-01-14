@@ -196,19 +196,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alessio\\.nuget\\packages\\": {}
+    "C:\\Users\\aless\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
+      "projectUniqueName": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
       "projectName": "Client.Sensors",
-      "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
-      "packagesPath": "C:\\Users\\Alessio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\obj\\",
+      "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
+      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alessio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -216,14 +216,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj": {
-              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj"
+            "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj": {
+              "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj"
             }
           }
         }

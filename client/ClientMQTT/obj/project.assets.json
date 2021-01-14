@@ -433,7 +433,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "M2Mqtt": "4.3.0"
+          "M2Mqtt": "4.3.0",
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "bin/placeholder/Client.Data.dll": {}
@@ -1158,19 +1159,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alessio\\.nuget\\packages\\": {}
+    "C:\\Users\\aless\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\ClientMQTT\\ClientMQTT.csproj",
+      "projectUniqueName": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\ClientMQTT\\ClientMQTT.csproj",
       "projectName": "ClientMQTT",
-      "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\ClientMQTT\\ClientMQTT.csproj",
-      "packagesPath": "C:\\Users\\Alessio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\ClientMQTT\\obj\\",
+      "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\ClientMQTT\\ClientMQTT.csproj",
+      "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\ClientMQTT\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alessio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aless\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1178,20 +1179,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://code3.tempestive.com/Projektoj/_packaging/Nuboj/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj": {
-              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj"
+            "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj": {
+              "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Data\\Client.Data.csproj"
             },
-            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj": {
-              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj"
+            "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj": {
+              "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Models\\Client.Models.csproj"
             },
-            "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj": {
-              "projectPath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj"
+            "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj": {
+              "projectPath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj"
             }
           }
         }

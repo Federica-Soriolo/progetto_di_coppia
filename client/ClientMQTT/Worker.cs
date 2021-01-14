@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
+using uPLibrary.Networking.M2Mqtt;
 
 namespace ClientMQTT
 {
@@ -23,8 +24,17 @@ namespace ClientMQTT
 
         private string clientId = "Scooter1";
         private string topicSummary = "Scooter/Scooter1/Summary";
+        private string topicRace = "Scooter/Scooter1/Cmd/Race";
+        private string topicScooter = "Scooter/Scooter1/Cmd/Scooter";
+        private string topicLed = "Scooter/Scooter1/Cmd/Led";
+        private string topicDisplay = "Scooter/Scooter1/Cmd/Display";
+        
 
         private static int status = 100;
+        private static double lastLongitude;
+        private static double lastLatitude;
+        private static int delay;
+
 
         public Worker(ILogger<Worker> logger)
         {
@@ -32,37 +42,75 @@ namespace ClientMQTT
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
-        {
+        {            
             Mqtt mqtt = new Mqtt(clientId);
+
+            mqtt.Subscribe(topicRace);
+            mqtt.Subscribe(topicScooter);
+            mqtt.Subscribe(topicLed);
+            mqtt.Subscribe(topicDisplay);
             mqtt.Subscribe(topicSummary);
 
-            SetTimer();
             battery.check = false;
 
             while (!stoppingToken.IsCancellationRequested)
             {
-                Detection d = new Detection()
+                if (mqtt.Scooter && status > 0)
                 {
-                    DeviceId = clientId,
-                    Battery = status,
-                    Speed = speed.GetSpeed(),
-                    Latitude = position.GetPosition().Latitude,
-                    Longitude = position.GetPosition().Longitude,
-                };
+                    if (mqtt.Race)
+                    {
+                        SetTimer(10000);
 
-                battery.check = true;
-                var json = JsonConvert.SerializeObject(d);
+                        lastLongitude = position.GetPosition().Longitude;
+                        lastLatitude = position.GetPosition().Latitude;
 
-                mqtt.Publish(topicSummary,json);
-                
-                await Task.Delay(20000, stoppingToken);
+                        Detection d = new Detection()
+                        {
+                            DeviceId = clientId,
+                            Battery = status,
+                            Speed = speed.GetSpeed(),
+                            Longitude = lastLongitude,
+                            Latitude = lastLatitude
+                        };
+
+                        battery.check = true;
+                        var json = JsonConvert.SerializeObject(d);
+
+                        mqtt.Publish(topicSummary, json);
+
+                        delay = 5000;
+
+                    }
+                    else
+                    {
+                        SetTimer(30000);
+
+                        Detection d = new Detection()
+                        {
+                            DeviceId = clientId,
+                            Battery = status,
+                            Speed = 0,
+                            Longitude = lastLongitude,
+                            Latitude = lastLatitude
+                        };
+
+                        battery.check = true;
+                        var json = JsonConvert.SerializeObject(d);
+
+                        mqtt.Publish(topicSummary, json);
+
+                        delay = 20000;
+                    }
+               }
+
+                await Task.Delay(delay, stoppingToken);
             }
         }
 
-        private static void SetTimer()
+        private static void SetTimer(int interval)
         {
             // Create a timer with a two second interval.
-            batterytimer = new System.Timers.Timer(10000);
+            batterytimer = new System.Timers.Timer(interval);
             // Hook up the Elapsed event for the timer. 
             batterytimer.Elapsed += OnTimedEvent;
             batterytimer.AutoReset = true;

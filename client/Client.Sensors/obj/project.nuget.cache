@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "onx3bB7JEqAXU44gdJUYzWQzq37LUje9njmhU7RdYyImOua56xbgERv9uzvBdEf0kg/W6hNsZuvi8V44uYlVmg==",
+  "dgSpecHash": "hU4YMV3KcN2N5eWdmrELLldaCRLyjQXoOHv9TCzPbaAuvot22LdtRAm6zIOTM4oJPW5RAvexSs/Go3BOgYTJ4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alessio\\Desktop\\PROTOCOLLI\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
+  "projectFilePath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\Client.Sensors\\Client.Sensors.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alessio\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alessio\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

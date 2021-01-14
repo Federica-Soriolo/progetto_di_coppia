@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Text;
 using uPLibrary.Networking.M2Mqtt;
 using uPLibrary.Networking.M2Mqtt.Messages;
@@ -9,11 +10,16 @@ namespace Client.Data
     {
         private static MqttClient client;
         private readonly string BrokerAddress = "127.0.0.1";
+        public bool Race { get; set; }
+        public bool Scooter { get; set; }
 
         public Mqtt(string clientId)
         {
             client = new MqttClient(BrokerAddress);
             client.Connect(clientId);
+            client.MqttMsgPublishReceived += PublishReceived;
+            Race = false;
+            Scooter = false;
         }
 
         public void Subscribe(string topic)
@@ -34,7 +40,7 @@ namespace Client.Data
         {
             if (topic != "")
             {
-                client.Publish(topic, Encoding.UTF8.GetBytes(message), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, true);
+                client.Publish(topic, Encoding.UTF8.GetBytes(message), MqttMsgBase.QOS_LEVEL_EXACTLY_ONCE, false);
                 Console.WriteLine($"Ok published message:{message} on topic:{topic}");
 
             }
@@ -42,6 +48,19 @@ namespace Client.Data
             {
                 Console.WriteLine("Invalid topic.");
             }
+        }
+
+        public void PublishReceived(object sender, MqttMsgPublishEventArgs e)
+        {
+            string ReceivedMessage = Encoding.UTF8.GetString(e.Message);
+
+            //Console.WriteLine($"Message: {ReceivedMessage}");
+
+            if (ReceivedMessage == "Start race") Race = true;
+            if (ReceivedMessage == "Stop race") Race = false;
+
+            if (ReceivedMessage == "Scooter ON") Scooter = true;
+            if (ReceivedMessage == "Scooter OFF") Scooter = false;
         }
 
     }

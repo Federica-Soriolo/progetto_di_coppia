@@ -16,3 +16,12 @@ C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Models\obj\
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.csproj.CoreCompileInputs.cache
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.dll
 C:\Users\Alessio\Desktop\PROTOCOLLI\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.pdb
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\bin\Debug\netstandard2.0\Client.Models.deps.json
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\bin\Debug\netstandard2.0\Client.Models.dll
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\bin\Debug\netstandard2.0\Client.Models.pdb
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.csprojAssemblyReference.cache
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.AssemblyInfoInputs.cache
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.AssemblyInfo.cs
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.csproj.CoreCompileInputs.cache
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.dll
+C:\Users\aless\Desktop\Progettovalle\progetto_di_coppia\client\Client.Models\obj\Debug\netstandard2.0\Client.Models.pdb
