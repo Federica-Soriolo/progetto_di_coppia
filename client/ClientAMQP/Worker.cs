@@ -48,9 +48,9 @@ namespace ClientAMQP
                     Longitude = position.GetPosition().Longitude,
                 };
                 battery.check = true;
-
+                protocol.Send(Convert.ToString(d.Speed), "Scooter.Scooter1.Speed");
                 var json = JsonConvert.SerializeObject(d);
-                protocol.Send(json);
+                protocol.Send(json, "Scooter.Scooter1.Summary");
                 await Task.Delay(20000, stoppingToken);
             }
         }

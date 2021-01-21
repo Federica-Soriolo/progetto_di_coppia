@@ -22,7 +22,7 @@ namespace Client.Data
          * - riutilizzare la stessa connessione per ogni invio, quindi aprirla all'avvio dell'applicazione e chiuderla al termine
          * - gestire situazioni d'errore: cosa accade se il broker non è raggiungibile?
          */
-        public void Send(string message)
+        public void Send(string message, string routingKey)
         {
             var factory = new ConnectionFactory()
             {
@@ -35,7 +35,7 @@ namespace Client.Data
                     channel.ExchangeDeclare(exchange: "topic_logs",
                                     type: "topic");
 
-                    var routingKey = "Scooter.Scooter1.Summary";
+                    
                     
                     var body = Encoding.UTF8.GetBytes(message);
                     channel.BasicPublish(exchange: "topic_logs",

@@ -6,6 +6,6 @@ namespace Client.Data
 {
     public interface IAmqp
     {
-        void Send(string data);
+        void Send(string data, string routingkey);
     }
 }
