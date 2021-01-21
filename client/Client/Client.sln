@@ -9,17 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client.csproj", "
 		{1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B} = {1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientMQTT", "..\ClientMQTT\ClientMQTT.csproj", "{042B3446-8A1C-4310-9152-4194DBB168E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientMQTT", "..\ClientMQTT\ClientMQTT.csproj", "{042B3446-8A1C-4310-9152-4194DBB168E1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C3947D5B-0D9B-48FD-BE03-DBFD604B489B} = {C3947D5B-0D9B-48FD-BE03-DBFD604B489B}
 		{1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B} = {1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Sensors", "..\Client.Sensors\Client.Sensors.csproj", "{1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Sensors", "..\Client.Sensors\Client.Sensors.csproj", "{1AF6B1B0-9A5F-4AEA-8CA9-CD496D946E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Models", "..\Client.Models\Client.Models.csproj", "{C3947D5B-0D9B-48FD-BE03-DBFD604B489B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Models", "..\Client.Models\Client.Models.csproj", "{C3947D5B-0D9B-48FD-BE03-DBFD604B489B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Data", "..\Client.Data\Client.Data.csproj", "{DBDC7700-2E19-49BA-922E-0C94B1EF326E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Data", "..\Client.Data\Client.Data.csproj", "{DBDC7700-2E19-49BA-922E-0C94B1EF326E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAMQP", "..\ClientAMQP\ClientAMQP.csproj", "{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,14 @@ Global
 		{DBDC7700-2E19-49BA-922E-0C94B1EF326E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBDC7700-2E19-49BA-922E-0C94B1EF326E}.Release|x86.ActiveCfg = Release|Any CPU
 		{DBDC7700-2E19-49BA-922E-0C94B1EF326E}.Release|x86.Build.0 = Release|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC7062A3-B0F6-4D9F-9A0B-70CA101EC6C9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

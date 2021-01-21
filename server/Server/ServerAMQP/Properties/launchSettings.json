@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ServerAMQP": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

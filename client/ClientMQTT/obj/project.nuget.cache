@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UzksVIwXaFAdsSVTaMkpgOaouvYiOEq7MZ8GtdXHxAXzHpGMyI9YkzCNXai6DooyKfO3rjtfwF7zPwcrhLw7UA==",
+  "dgSpecHash": "q0ovTGkaJvGU9sHZ9J+wOCIJw8FHOLgJqcPmDVxX0VfU5NlbroqPyMsbKsNBGLpplRXhC1VXR7rf3AplvGuqNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\ClientMQTT\\ClientMQTT.csproj",
   "expectedPackageFiles": [
@@ -33,9 +33,12 @@
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\aless\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\aless\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": [
     {

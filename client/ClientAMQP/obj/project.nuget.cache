@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "dgSpecHash": "BGSf7gR8ux2d6dUMYxu/9b+CRUEBAChrrMZWUqVx8r0UGRRxlb23ULZRpgRVUs8O4NjszNnrnYd47FO9EoVKfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aless\\Desktop\\Progettovalle\\progetto_di_coppia\\client\\ClientAMQP\\ClientAMQP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aless\\.nuget\\packages\\m2mqtt\\4.3.0\\m2mqtt.4.3.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.8\\microsoft.extensions.configuration.binder.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.commandline\\3.1.8\\microsoft.extensions.configuration.commandline.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\3.1.8\\microsoft.extensions.configuration.environmentvariables.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.8\\microsoft.extensions.configuration.fileextensions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.8\\microsoft.extensions.configuration.json.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\3.1.8\\microsoft.extensions.configuration.usersecrets.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.8\\microsoft.extensions.dependencyinjection.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.8\\microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.8\\microsoft.extensions.fileproviders.physical.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.8\\microsoft.extensions.filesystemglobbing.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.hosting\\3.1.8\\microsoft.extensions.hosting.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.1.8\\microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging\\3.1.8\\microsoft.extensions.logging.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.configuration\\3.1.8\\microsoft.extensions.logging.configuration.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.console\\3.1.8\\microsoft.extensions.logging.console.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.debug\\3.1.8\\microsoft.extensions.logging.debug.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.eventlog\\3.1.8\\microsoft.extensions.logging.eventlog.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.logging.eventsource\\3.1.8\\microsoft.extensions.logging.eventsource.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.1.8\\microsoft.extensions.options.configurationextensions.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\aless\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'M2Mqtt 4.3.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto '.NETCoreApp,Version=v3.1'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "M2Mqtt",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

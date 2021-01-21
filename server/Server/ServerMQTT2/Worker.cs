@@ -59,9 +59,9 @@ namespace ServerMqtt
             if (ReceivedMessage != null)
             {
                 _logger.LogInformation($"Message: {ReceivedMessage}");
-                var detection = JsonSerializer.Deserialize<DataModel>(ReceivedMessage);
+                //var detection = JsonSerializer.Deserialize<DataModel>(ReceivedMessage);
 
-                _actionsRepository.TableServiceAsync(detection);
+                //_actionsRepository.TableServiceAsync(detection);
 
                 
             }
