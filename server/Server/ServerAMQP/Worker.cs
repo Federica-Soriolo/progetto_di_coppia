@@ -18,9 +18,7 @@ namespace ServerAMQP
     {
         private readonly ILogger<Worker> _logger;
         private readonly IActionsRepository _actionsRepository;
-        private readonly string username = "alessia.colin@stud.tecnicosuperiorekennedy.it";
-        private readonly string password = "Tsu7NLVlJsIjtesiP-28UdzMMuEXif9l";
-        private readonly string virtualhost = "lhjvzajb";
+
 
         public Worker(ILogger<Worker> logger, IActionsRepository actionsRepository)
         {
@@ -30,6 +28,7 @@ namespace ServerAMQP
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            var bindingKey = "Scooter.Scooter1.Summary";
             var factory = new ConnectionFactory()
             {
                 Uri = new Uri("amqps://lhjvzajb:Tsu7NLVlJsIjtesiP-28UdzMMuEXif9l@bonobo.rmq.cloudamqp.com/lhjvzajb")
@@ -37,30 +36,39 @@ namespace ServerAMQP
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "Scooter",
-                                     durable: false,
-                                     exclusive: false,
-                                     autoDelete: false,
-                                     arguments: null);
+                channel.ExchangeDeclare(exchange: "topic_logs", type: "topic");
+                var queueName = channel.QueueDeclare().QueueName;
+
+                
+                
+                    channel.QueueBind(queue: queueName,
+                                      exchange: "topic_logs",
+                                      routingKey: bindingKey);
+                
+
+                Console.WriteLine(" [*] Waiting for messages. To exit press CTRL+C");
 
                 var consumer = new EventingBasicConsumer(channel);
                 consumer.Received += (model, ea) =>
                 {
                     var body = ea.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
-                    _logger.LogInformation($"Message: {message}");
+                    var routingKey = ea.RoutingKey;
+                    Console.WriteLine(" [x] Received '{0}':'{1}'",
+                                      routingKey,
+                                      message);
                     var detection = JsonSerializer.Deserialize<DataModel>(message);
 
                     _actionsRepository.TableServiceAsync(detection);
                 };
-                channel.BasicConsume(queue: "Scooter",
+                channel.BasicConsume(queue: queueName,
                                      autoAck: true,
                                      consumer: consumer);
 
                 Console.WriteLine(" Press [enter] to exit.");
                 Console.ReadLine();
             }
-            
+
         }
     }
 }
